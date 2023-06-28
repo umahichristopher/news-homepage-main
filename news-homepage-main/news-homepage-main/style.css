@@ -1,0 +1,258 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    margin: 0px;
+    padding: 25px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 7px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.navbar {
+    list-style: none;
+    gap: 9px;
+    display: flex;
+}
+.navbar li a {
+    font-size: 14px;
+    text-decoration: none;
+}
+#logo {
+    width: 70%;
+    height: auto;
+}
+.fontbg {
+    line-height: 35px;
+    font-weight: 800;
+    font-size: 30px;
+}
+.childtwo > p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.firstparent {
+    display: flex;
+    gap: 5px;
+}
+.childperent {
+    margin-top: 14px;
+    display: flex;
+    gap: 6px;
+}
+.secondchild {
+    width: 139%;
+    height: auto;
+    padding: 2%;
+    background-color: hsl(240, 100%, 5%);
+}
+.new {
+    font-size: 28px;
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+.headbg {
+    font-size: 15px;
+    color: hsl(36, 100%, 99%);
+}
+.secondchild p {
+    font-size: 13px;
+    color: grey;
+}
+article {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.line {
+    margin: 13px 0px 13px 0px;
+    color: white;
+}
+#btn {
+      margin-top: 11%;
+}
+button {
+    padding: 10px;
+    letter-spacing: 2px;
+    border-color: transparent;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.flezsect {
+    margin-top: 5%;
+    display: flex;
+
+}
+.secone {
+    display: flex;
+
+}
+#icon {
+    display: none;
+}
+
+.ticle > p {
+    font-size: 14px
+}
+.ticle > h4 {
+    font-size: 14px;
+}
+.ticle h2 {
+    color: gray;
+}
+
+#govt {
+    position: relative;
+    width: 80% !important;
+}
+.ticle {
+    position: relative;
+    margin-right: 10px;
+}
+#smallimage {
+    display: none;
+}
+
+@media only screen and (max-width: 375px) {
+    main {
+        margin: 0px;
+        padding: 10px;
+        overflow-x: hidden;
+    }
+    .fontbg {
+        line-height: 26px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .childtwo > p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .firstparent {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .childperent {
+        margin-top: 14px;
+        flex-direction: column;
+        column-gap: 20%;
+    }
+    .secondchild {
+        margin-top: 30px;
+        width: 100%;
+        padding: 3%;
+        background-color: hsl(240, 100%, 5%);
+    }
+    .new {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+    #bigimage {
+        display: none;
+    }
+    #smallimage {
+        width: 100%;
+        display: block;
+    }
+    .flezsect {
+        margin-top: 5%;
+        flex-direction: column;
+    }
+    .headbg {
+        font-size: 16px;
+    }
+    .secondchild p {
+        font-size: 14px;
+        color: grey;
+        height: fit-content;
+    }
+    article {
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    button {
+        padding: 3px !important;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .ticle > p {
+        font-size: 13px;
+        height: fit-content;
+    }
+    .ticle > h4 {
+        font-size: 14px;
+    }
+    .ticle h2 {
+        color: gray;
+    }
+    
+    #govt {
+        position: relative;
+        width: 100% !important;
+    }
+    .ticle {
+        position: relative;
+        margin-left: 7px;
+    }
+    .woon {
+        
+    }
+    .secone {
+        margin-top: 12px;
+    }
+    .navbar li a {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+    }
+    #icon {
+        width: 60%;
+        float: right;
+        display: block;
+        cursor: pointer;
+        position: relative;
+    }
+    #nabitem {
+        display: ;
+    }
+    
+    
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+  
